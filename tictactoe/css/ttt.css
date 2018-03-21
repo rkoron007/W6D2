@@ -1,0 +1,42 @@
+html {
+  font-family: sans-serif;
+  background: linear-gradient(to right, purple, blue, purple);
+  /* background: linear-gradient(to bottom right, red, yellow); */
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  padding-right: 120px;
+}
+
+.square {
+  /* font-family: sans-serif; */
+  width: 200px;
+  height: 200px;
+  border: 3px solid blue;
+  background-color: lightgreen;
+  color: purple;
+  text-align: center;
+  font-size: 200px;
+  font-weight: 1000;
+  padding-bottom: 50px;
+}
+
+.ttt {
+  margin: auto;
+}
+
+.square:hover {
+  background-color: lightblue;
+}
+
+
+.row {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  list-style-type: none;
+  background: inherit;
+}
